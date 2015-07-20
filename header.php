@@ -17,14 +17,14 @@
 	<link rel="stylesheet" media="all" href="<?php bloginfo('stylesheet_url'); ?>"/>
 	<!-- stylesheet -->
 
-	
+
     <!-- custom typography-->
-    <?php if(of_get_option('customtypography') == '1') { ?>  
+    <?php if(of_get_option('customtypography') == '1') { ?>
 
 		<?php if(of_get_option('bodyfontlink') != '') { ?>
 			<?php echo stripslashes(html_entity_decode(of_get_option('bodyfontlink')));?>
 		<?php } ?>
-		
+
 		<?php if(of_get_option('headingfontlink') != '') { ?>
 			<?php echo stripslashes(html_entity_decode(of_get_option('headingfontlink')));?>
 		<?php } ?>
@@ -34,7 +34,7 @@
 	<?php } ?>
 	<!-- custom typography -->
 
-   
+
 
 <!-- wp_head -->
 <?php wp_head(); ?>
@@ -52,6 +52,7 @@
 	<div id="page">
 		<div class="header-container">
            <header class="wrapper clearfix">
+						<!-- Logo or logo text in navbar -->
            	   <?php if (of_get_option('logo') !='' || of_get_option('logo_text')!='' ) { ?>
                <h1 class="site-title"><a href="<?php bloginfo('url'); ?>"><?php if(of_get_option('logo')) : echo '<img src="'.of_get_option('logo').'" alt="'.get_bloginfo('name').'" />'; else: echo ''.of_get_option('logo_text').''; endif; ?></a></h1>
                <?php } else { ?>
@@ -72,13 +73,10 @@
            </header>
         </div>
 
-       
+
 
 		<!-- .main-container -->
 		<div class="main-container">
-			
+
 
 			<div class="main wrapper clearfix">
-				
-					
-

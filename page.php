@@ -1,10 +1,10 @@
 <?php get_header(); ?>
 
-		
+
 		<div class="column-one">
-			
-			
-			
+
+
+
 
 			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -25,8 +25,8 @@
 
 			<!-- begin #pagination -->
 			<div class="navigation">
-			<?php if (function_exists("emm_paginate")) { 
-					emm_paginate();  
+			<?php if (function_exists("emm_paginate")) {
+					emm_paginate();
 				 } else { ?>
 
 		    <?php } ?>
@@ -43,6 +43,7 @@
 		</div><!-- end #column-one -->
 
 		<div class="column-two">
+			<!-- Pages maybe shouldn't have sidebar -->
 		<?php get_sidebar('primary'); ?>
 		</div><!-- end #column-two -->
 

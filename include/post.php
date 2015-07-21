@@ -10,7 +10,6 @@
 	<!-- Socials -->
 <a target="popup"  onclick="window.open('http://www.facebook.com/sharer.php?u=<?php echo get_permalink(); ?>','','width=600,height=400')" > <img title="share on facebook" class="social-theme-icon" src="<?php echo get_bloginfo('template_url')."/img/facebook.png";?>"></a>
   <a target="popup"  onclick="window.open('http://twitter.com/intent/tweet?text=<?php echo get_the_title(); ?> - <?php echo get_permalink(); ?>','','width=600,height=400')" > <img title="share on twitter" class="social-theme-icon" src="<?php echo get_bloginfo('template_url')."/img/twitter.png";?>"></a>
-<a target="popup"  onclick="window.open('http://m.pinterest.com/pin/create/button/?media=<?php echo $large_image_url[0]; ?>&url=<?php echo get_permalink(); ?>&description=<?php echo get_the_title(); ?>','','width=600,height=400')" > <img title="share on pinterest"  class="social-theme-icon" src="<?php echo get_bloginfo('template_url')."/img/pinterest.png";?>"></a>
 
 
   <a target="popup"  onclick="window.open('https://plus.google.com/share?url=<?php echo get_permalink(); ?>','','width=600,height=400')" > <img title="share on google plus" class="social-theme-icon" src="<?php echo get_bloginfo('template_url')."/img/google_plus.png";?>"></a>
@@ -30,7 +29,7 @@
 	<?php //wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'gpp_theme' ), 'after' => '</div>' ) ); ?>
 	<?php
 the_excerpt_max_charlength(120);
-// the full text can be found under de single.php 
+// the full text can be found under de single.php
 ?>
 </div>
 

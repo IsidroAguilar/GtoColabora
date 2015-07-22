@@ -8,6 +8,7 @@
 <div class="box-container"><?php if(has_post_thumbnail()): ?><a href="<?php the_permalink(); ?>"  class="post-thumb-link"><?php the_post_thumbnail('post-thumb'); ?></a><?php endif; ?>
 <footer class="box-footer" >
 	<!-- Socials -->
+	<span id="share"> Compartir </span>
 <a target="popup"  onclick="window.open('http://www.facebook.com/sharer.php?u=<?php echo get_permalink(); ?>','','width=600,height=400')" > <img title="share on facebook" class="social-theme-icon" src="<?php echo get_bloginfo('template_url')."/img/facebook.png";?>"></a>
   <a target="popup"  onclick="window.open('http://twitter.com/intent/tweet?text=<?php echo get_the_title(); ?> - <?php echo get_permalink(); ?>','','width=600,height=400')" > <img title="share on twitter" class="social-theme-icon" src="<?php echo get_bloginfo('template_url')."/img/twitter.png";?>"></a>
 

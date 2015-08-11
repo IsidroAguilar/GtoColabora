@@ -1,30 +1,34 @@
 <?php get_header(); ?>
 
-		
+
 		<div class="column-one">
-			
+
 			<header>
 				<h2 class="post-title">
 					<?php if (is_category()) { ?>
-							<?php _e("Posts Categorized", "gpp_theme"); ?> / <span><?php single_cat_title(); ?></span> 
-					<?php } elseif (is_tag()) { ?> 
+							<?php _e("Posts Categorized", "gpp_theme"); ?> / <span><?php single_cat_title(); ?></span>
+					<?php } elseif (is_tag()) { ?>
 							<?php _e("Posts Tagged", "gpp_theme"); ?> / <span><?php single_cat_title(); ?></span>
 					<?php } elseif (is_author()) { ?>
-							<?php _e("Posts By", "gpp_theme"); ?> / <span><?php the_author_meta('display_name', $post->post_author) ?> </span> 
+							<?php _e("Posts By", "gpp_theme"); ?> / <span><?php the_author_meta('display_name', $post->post_author) ?> </span>
 					<?php } elseif (is_day()) { ?>
 							<?php _e("Daily Archives", "gpp_theme"); ?> / <span><?php the_time('l, F j, Y'); ?></span>
 					<?php } elseif (is_month()) { ?>
 					    	<?php _e("Monthly Archives", "gpp_theme"); ?> / <span><?php the_time('F Y'); ?></span>
 					<?php } elseif (is_year()) { ?>
-					    	<?php _e("Yearly Archives", "gpp_theme"); ?> / <span><?php the_time('Y'); ?></span> 
+					    	<?php _e("Yearly Archives", "gpp_theme"); ?> / <span><?php the_time('Y'); ?></span>
 					<?php } elseif (is_Search()) { ?>
-					    	<?php _e("Search Results", "gpp_theme"); ?> / <span><?php echo esc_attr(get_search_query()); ?></span> 
+					    	<?php _e("Search Results", "gpp_theme"); ?> / <span><?php echo esc_attr(get_search_query()); ?></span>
 					<?php } ?>
 				</h2>
 			</header>
 
+			<div class="slider">
+				<?php echo do_shortcode("[huge_it_slider id='2']"); ?>
+			</div>
+
 			<div id="posts" class="clearfix">
-			
+
 				<?php
 				// WP 3.0 PAGED BUG FIX
 				if ( get_query_var('paged') )
@@ -57,8 +61,8 @@
 
 
 			<!-- begin #pagination -->
-			<?php if (function_exists("emm_paginate")) { 
-				emm_paginate();  
+			<?php if (function_exists("emm_paginate")) {
+				emm_paginate();
 			} else { ?>
 			<div class="navigation">
 			    <div class="alignleft"><?php next_posts_link('Older') ?></div>

@@ -13,7 +13,7 @@ $options[] = array("name" => "Your Logo",
 $options[] = array("name" => "Text as Logo",
                   "desc" => "If you don't upload your own company logo, this text will show up in it's place.",
                   "id" => SN."logo_text",
-                  "std" => "Clippy",
+                  "std" => "Guanajuato Colabora",
                   "type" => "text");
 
 $options[] = array( "name" => "Custom Favicon",

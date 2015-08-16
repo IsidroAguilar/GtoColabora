@@ -62,7 +62,7 @@ table{border-collapse:collapse;border-spacing:0}
 body {
     font-size: 14px;background: black;
     line-height: 1.7;
-    color:#666;
+    color:rgb(128, 130, 133);
 }
 a {
 	text-decoration: none;
@@ -366,7 +366,7 @@ width: 251px;}
 .box h2.post-title a{font-size: 18px;
 font-weight: normal;
 font-family: 'LatoRegular',Arial,Verdana,sans-serif;
-text-transform: lowercase;
+/*text-transform: lowercase;*/
 margin-bottom: 10px;
 padding: 0px;
 color: #58595b;
@@ -1602,4 +1602,52 @@ display: flex;margin-right: -31px;
 
 #wa_rs_cycle li > div {
   width:93%
+}
+.post-title {
+  width:100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  background-color: rgb(128, 130, 133);
+  font-size: 36px;
+}
+.main-container {
+  margin-top: 0;
+}
+header {
+  margin-top:0;
+}
+.wrapper{
+  margin: 0;
+  width:100%
+}
+.gris1 {
+  width:100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(241, 241, 241);
+}
+.gris2 {
+  width:100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(218, 218, 218);
+}
+.gris3 {
+  width:100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(165, 165, 165);
+}
+.gris4 {
+  width:100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(89, 89, 89);
+}
+.gris5 {
+  width:100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(12, 12, 12);
 }

@@ -42,11 +42,6 @@
 
 		</div><!-- end #column-one -->
 
-		<div class="column-two">
-			<!-- Pages maybe shouldn't have sidebar -->
-		<?php get_sidebar('primary'); ?>
-		</div><!-- end #column-two -->
-
 
 
 <?php get_footer(); ?>

@@ -5,11 +5,11 @@
 
             <!-- .footer-container -->
             <div class="footer-container clearfix">
-                
-                <div class="footer-widgets wrapper">
+
+                <!-- <div class="footer-widgets wrapper">
                    <?php get_sidebar('footer'); ?>
-                </div>
-                
+                </div> -->
+
                 <footer class="wrapper">
                     <!-- begin copyright -->
 					<?php echo of_get_option('footer_copyright')  ?>

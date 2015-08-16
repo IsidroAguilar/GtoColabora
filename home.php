@@ -20,11 +20,7 @@
 				    	<?php _e("Search Results", "gpp_theme"); ?> / <span><?php echo esc_attr(get_search_query()); ?></span>
 				<?php } ?>
 			</h1>
-
-			<div class="slider">
-				<?php echo do_shortcode("[huge_it_slider id='2']"); ?>
-			</div>
-
+			
 			<div id="posts" class="clearfix">
 
 				<?php

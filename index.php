@@ -23,10 +23,6 @@
 				</h2>
 			</header>
 
-			<div class="slider">
-				<?php echo do_shortcode("[huge_it_slider id='2']"); ?>
-			</div>
-
 			<div id="posts" class="clearfix">
 
 				<?php

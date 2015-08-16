@@ -1615,7 +1615,7 @@ display: flex;margin-right: -31px;
   margin-top: 0;
 }
 header {
-  margin-top:0;
+  margin-top:0px;
 }
 .wrapper{
   margin: 0;
@@ -1650,4 +1650,10 @@ header {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: rgb(12, 12, 12);
+}
+.multy {
+  width:100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(241, 241, 241);
 }

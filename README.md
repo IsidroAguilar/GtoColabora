@@ -3,13 +3,13 @@
 Wordpress theme based on Gypsy Modified theme  by [Rousseau Antoine](a.rousseau17@hotmail.fr) to look like [foodgawker](http://foodgawker.com/).
 
 ## Snippets
-Claces:
-- gris1
-- gris2
-- gris3
-- gris4
-- gris5
-- multy
+Clases:
+- `gris1`
+- `gris2`
+- `gris3`
+- `gris4`
+- `gris5`
+- `multy`
 
 Para agregar un post:
 ```html
@@ -29,7 +29,7 @@ Para agregar css a un post:
   </p>
 </div>
 ```
-Para agregar un post con viarios divs:
+Para agregar un post con viarios divs(En proceso):
 ```html
 <div class="multy">
   <i class="fa fa-camera-retro fa-5x"></i>

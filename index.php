@@ -24,7 +24,7 @@
 			</header>
 
 			<div class="slider">
-				<?php echo do_shortcode("[huge_it_slider id='2']"); ?>
+				<?php echo do_shortcode('[responsive-slideshow]'); ?>
 			</div>
 
 			<div id="posts" class="clearfix">

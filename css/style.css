@@ -168,9 +168,11 @@ header.wrapper {background:rgb(128, 130, 133);
 	/*position: absolute;
 	right: 0;
 	top: 50px;
+    Altura de Logo = 59px
 	*/
 	float: right;
 	padding-right: 0;
+    margin-top: 25px;
 }
 
 .top-menu-container nav { 

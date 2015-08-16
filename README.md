@@ -12,7 +12,7 @@ Claces:
 - multy
 
 Para agregar un post:
-```
+```html
 <div class="gris1">
   <h1> Titulo </h1>
   <p>
@@ -21,7 +21,7 @@ Para agregar un post:
 </div>
 ```
 Para agregar css a un post:
-```
+```html
 <div class="gris1" style="background-color:#BADA55;">
   <h1> Titulo </h1>
   <p>
@@ -30,7 +30,7 @@ Para agregar css a un post:
 </div>
 ```
 Para agregar un post con viarios divs:
-```
+```html
 <div class="multy">
   <i class="fa fa-camera-retro fa-5x"></i>
   <h1> Titulo </h1>

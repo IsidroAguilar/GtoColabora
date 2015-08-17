@@ -32,10 +32,19 @@ Para agregar css a un post:
 Para agregar un post con viarios divs(En proceso):
 ```html
 <div class="multy">
-  <i class="fa fa-camera-retro fa-5x"></i>
-  <h1> Titulo </h1>
-  <p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  </p>
+  <div class="multy-son-2">
+    <i class="fa fa-camera-retro fa-5x"></i>
+    <h1> Titulo </h1>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+  </div>
+  <div class="multy-son-2">
+    <i class="fa fa-coffee fa-5x"></i>
+    <h1> Titulo </h1>
+    <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+  </div>
 </div>
 ```

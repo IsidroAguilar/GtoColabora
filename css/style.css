@@ -710,7 +710,7 @@ margin-right: -11px;}
 
 h2.post-title {
     line-height: 1.2;
-    margin-bottom: 1em;
+    /*margin-bottom: 1em;*/
 }
 .prev-post,
 .next-post {
@@ -1599,61 +1599,100 @@ display: flex;margin-right: -31px;
         page-break-after: avoid;
     }
 }
-
+/* ============= CUSTOM ============= */
 #wa_rs_cycle li > div {
   width:93%
 }
 .post-title {
-  width:100%;
-  padding-top: 50px;
+  width:80%;
+  padding: 50px 10%;
+  margin: 0px;
+  text-align: center;
   padding-bottom: 50px;
   text-align: center;
-  background-color: rgb(128, 130, 133);
+  background-color: rgb(218, 218, 218);
   font-size: 36px;
 }
 .main-container {
   margin-top: 0;
 }
 .post-simple-header {
-  margin-top:0px;
+  margin:0px;
 }
 .wrapper{
   margin: 0;
   width:100%
 }
 .gris1 {
-  width:100%;
-  padding-top: 50px;
+  width:80%;
+  padding: 50px 10%;
+  margin: 0px;
+  text-align: center;
   padding-bottom: 50px;
   background-color: rgb(241, 241, 241);
 }
 .gris2 {
-  width:100%;
-  padding-top: 50px;
+  width:80%;
+  padding: 50px 10%;
+  margin: 0px;
+  text-align: center;
   padding-bottom: 50px;
   background-color: rgb(218, 218, 218);
 }
 .gris3 {
-  width:100%;
-  padding-top: 50px;
+  width:80%;
+  padding: 50px 10%;
+  margin: 0px;
+  text-align: center;
   padding-bottom: 50px;
   background-color: rgb(165, 165, 165);
 }
 .gris4 {
-  width:100%;
-  padding-top: 50px;
+  width:80%;
+  padding: 50px 10%;
+  margin: 0px;
+  text-align: center;
   padding-bottom: 50px;
   background-color: rgb(89, 89, 89);
 }
 .gris5 {
-  width:100%;
-  padding-top: 50px;
+  width:80%;
+  padding: 50px 10%;
+  margin: 0px;
+  text-align: center;
   padding-bottom: 50px;
   background-color: rgb(12, 12, 12);
 }
 .multy {
-  width:100%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  width:80%;
+  padding: 50px 10%;
+  margin: 0px;
   background-color: rgb(241, 241, 241);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.multy-son-5 {
+  width: 18%;
+}
+.multy-son-4 {
+  width: 23%;
+}
+.multy-son-3 {
+  width: 32%;
+}
+.multy-son-2 {
+  width: 48%;
+}
+.multy-son-1 {
+  width: 100%;
+}
+.multy div {
+  text-align: center;
+}
+.multy div h1 {
+  text-align: center;
+}
+.multy div p {
+  text-align: justify;
 }

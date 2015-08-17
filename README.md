@@ -9,6 +9,8 @@ Clases:
 - `gris3`
 - `gris4`
 - `gris5`
+- `amarillo-mecate`
+- `rojo-let`
 - `multy`
 
 Para agregar un post:

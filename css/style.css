@@ -1605,13 +1605,19 @@ display: flex;margin-right: -31px;
 }
 .post-title {
   width:80%;
-  padding: 50px 10%;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 10px;
+  padding-top: 50px;
   margin: 0px;
-  text-align: center;
-  padding-bottom: 50px;
   text-align: center;
   background-color: rgb(218, 218, 218);
   font-size: 36px;
+}
+.title-image {
+  text-align: center;
+  background-color: rgb(218, 218, 218);
+  padding: 0 auto;
 }
 .main-container {
   margin-top: 0;
@@ -1638,6 +1644,7 @@ display: flex;margin-right: -31px;
   text-align: center;
   padding-bottom: 50px;
   background-color: rgb(218, 218, 218);
+  color:black;
 }
 .gris3 {
   width:80%;
@@ -1646,6 +1653,7 @@ display: flex;margin-right: -31px;
   text-align: center;
   padding-bottom: 50px;
   background-color: rgb(165, 165, 165);
+  color: white;
 }
 .gris4 {
   width:80%;
@@ -1654,6 +1662,7 @@ display: flex;margin-right: -31px;
   text-align: center;
   padding-bottom: 50px;
   background-color: rgb(89, 89, 89);
+  color: white;
 }
 .gris5 {
   width:80%;
@@ -1662,6 +1671,23 @@ display: flex;margin-right: -31px;
   text-align: center;
   padding-bottom: 50px;
   background-color: rgb(12, 12, 12);
+  color: white;
+}
+.amarillo-mecate {
+  width:80%;
+  padding: 50px 10%;
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: #F2D44F;
+}
+.rojo-let {
+  width:80%;
+  padding: 50px 10%;
+  margin: 0px;
+  text-align: center;
+  padding-bottom: 50px;
+  background-color: #e53d24;
 }
 .multy {
   width:80%;
@@ -1694,5 +1720,5 @@ display: flex;margin-right: -31px;
   text-align: center;
 }
 .multy div p {
-  text-align: justify;
+  text-align: center;
 }

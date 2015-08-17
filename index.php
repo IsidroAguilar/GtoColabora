@@ -23,6 +23,11 @@
 				</h2>
 			</header>
 
+
+			<div class="slider">
+				<?php echo do_shortcode('[responsive-slideshow]'); ?>
+			</div>
+
 			<div id="posts" class="clearfix">
 
 				<?php

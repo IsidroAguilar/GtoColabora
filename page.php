@@ -11,8 +11,15 @@
 
 			<article id="post-<?php the_ID(); ?>" <?php post_class(	array('clearfix ' ) ); ?> role="article">
 
-				<header>
+				<header class="post-simple-header">
 					<h2 class="post-title"><?php the_title(); ?></h2>
+					<div class="title-image">
+						<?php
+							if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+								the_post_thumbnail();
+							}
+						?>
+					</div>
 				</header>
 
 				<?php the_content() ?>
@@ -41,11 +48,6 @@
 			<?php wp_reset_query(); ?>
 
 		</div><!-- end #column-one -->
-
-		<div class="column-two">
-			<!-- Pages maybe shouldn't have sidebar -->
-		<?php get_sidebar('primary'); ?>
-		</div><!-- end #column-two -->
 
 
 

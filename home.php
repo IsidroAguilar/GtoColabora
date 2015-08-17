@@ -20,7 +20,14 @@
 				    	<?php _e("Search Results", "gpp_theme"); ?> / <span><?php echo esc_attr(get_search_query()); ?></span>
 				<?php } ?>
 			</h1>
-			
+
+			<div class="slider">
+				<?php echo do_shortcode('[responsive-slideshow]'); ?>
+			</div>
+
+			<header class="post-simple-header">
+				<h2 class="post-title">Comunidades De Innovaci&oacute;n y Emprendimiento</h2>
+			</header>
 			<div id="posts" class="clearfix">
 
 				<?php

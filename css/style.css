@@ -13,7 +13,7 @@ audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
 audio:not([controls]){display:none;height:0}
 [hidden]{display:none}
 html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
-html,button,input,select,textarea{font-family: LatoRegular, Arial, Verdana, sans-serif;}
+html,button,input,select,textarea{font-family:'Montserrat', LatoRegular, Arial, Verdana, sans-serif;}
 body{margin:0}
 a:focus{outline:thin dotted}
 a:active,a:hover{outline:0}
@@ -29,7 +29,7 @@ blockquote{margin:1em 40px}
 dfn{font-style:italic}
 mark{background:#ff0;color:#000}
 p,pre{margin:1em 0}
-code,kbd,pre,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}
+code,kbd,pre,samp{font-family:'Montserrat',monospace,serif;_font-family:'Montserrat','courier new',monospace;font-size:1em}
 pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}
 q{quotes:none}
 q:before,q:after{content:'';content:none}
@@ -365,7 +365,7 @@ margin-left: -8px;
 width: 251px;}
 .box h2.post-title a{font-size: 18px;
 font-weight: normal;
-font-family: 'LatoRegular',Arial,Verdana,sans-serif;
+font-family: 'Montserrat','LatoRegular',Arial,Verdana,sans-serif;
 /*text-transform: lowercase;*/
 margin-bottom: 10px;
 padding: 0px;
@@ -616,7 +616,7 @@ margin-right: -11px;}
 		background: url(../img/quote.png) 0 0 no-repeat;
 		margin:1em 0;
 		padding-left:40px;
-		font-family: Georgia, serif;
+		font-family: 'Montserrat', Georgia, serif;
 	}
 
 	.format-quote .quote-author {
@@ -839,7 +839,7 @@ div.preview .meta {
     border: 1px solid #CCCCCC;
     border-radius: 50px 50px 50px 50px;
     background: #fff;
-    font-family: Georgia;
+    font-family: 'Montserrat', Georgia;
     font-style: italic;
     font-size: 90% !important;
 

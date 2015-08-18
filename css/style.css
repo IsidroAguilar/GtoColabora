@@ -1638,12 +1638,12 @@ display: flex;margin-right: -31px;
   padding-bottom: 50px;
   background-color: rgb(241, 241, 241);
 }
-.gris1-right {
+.gris1-left {
   width:80%;
   padding: 50px 10%;
   margin: 0px;
   font-size: 18px;
-  text-align: right;
+  text-align: left;
   padding-bottom: 50px;
   background-color: rgb(241, 241, 241);
 }
@@ -1740,6 +1740,7 @@ display: flex;margin-right: -31px;
 }
 .multy div {
   text-align: center;
+  font-size: 18px;
 }
 .multy div h1 {
   text-align: center;

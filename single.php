@@ -36,13 +36,6 @@
 </article>
 
 </div>
-<div class="column-two-bis">
-		<?php get_sidebar('primary_first'); ?>
-		</div><!-- end #column-one -->
-
-		<div class="column-three">
-		<?php get_sidebar('primary_second'); ?>
-		</div><!-- end #column-two -->
 <div class="clearfix"></div>
 
 				<div class="entry-content">

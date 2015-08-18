@@ -139,6 +139,9 @@ font-size: 12px;}
    HEADER
    ========================================================================== */
 .site-title a{color:white; }
+.site-title img {
+  max-height: 59px;
+}
 .site-title {
    	float:none;
    	margin: -6px 30px;
@@ -170,9 +173,9 @@ header.wrapper {background:rgb(128, 130, 133);
 	top: 50px;
     Altura de Logo = 59px
 	*/
-	float: right;
-	padding-right: 0;
-    margin-top: 25px;
+  float: right;
+  padding-right: 0;
+  margin-top: 10px;
 }
 
 .top-menu-container nav {
@@ -1242,9 +1245,9 @@ textarea {
 
     /* menu icon */
     #menu-icon {
-            color: #FFFFFF;
+            color: #000000;
             width: auto;
-            background: #000000;
+            background: rgb(241, 241, 241);
             padding: 10px 20px;
             cursor: pointer;
             display: block; /* show menu icon */
@@ -1748,4 +1751,9 @@ display: flex;margin-right: -31px;
 .multy div p {
   text-align: center;
   font-size: 18px;
+}
+@media only screen and (max-width: 480px) {
+  .multy-son-5, .multy-son-4, .multy-son-3, .multy-son-2, .multy-son-1 {
+    width: 100%;
+  }
 }

@@ -14,12 +14,6 @@
 					<h2 class="post-title"><?php the_title(); ?></h2>
 				</header>
 
-				<div class="meta clearfix">
-									<span class="post-author"><?php  the_author_posts_link(); ?></span> |
-
-					<span class="post-date"><?php echo get_the_date(); ?></span>
-				</div>
-
 				<!-- Post Formats-->
 				<?php
 				$post_format = get_post_format();
@@ -29,11 +23,15 @@
 					<?php
 					$postid = $post->ID;
 					?>
+				<div class="multy">
+					<div class="multy-son-3">
+						<article id="post-<?php the_ID(); ?>" <?php post_class(	array('clearfix', 'box' ) ); ?> role="article">
+							<!-- If we want to show a custom page for every comunity this should change -->
+							<?php get_template_part( '/include/post' ); ?>
+						</article>
+					</div>
 
-				<article id="post-<?php the_ID(); ?>" <?php post_class(	array('clearfix', 'box' ) ); ?> role="article">
-					<!-- If we want to show a custom page for every comunity this should change -->
-					<?php get_template_part( '/include/post' ); ?>
-</article>
+				</div>
 
 </div>
 <div class="clearfix"></div>

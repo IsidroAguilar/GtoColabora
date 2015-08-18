@@ -60,7 +60,7 @@ table{border-collapse:collapse;border-spacing:0}
 
 
 body {
-    font-size: 14px;background: black;
+    font-size: 18px;background: black;
     line-height: 1.7;
     color:rgb(128, 130, 133);
 }
@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5 {
 }
  .main .column-one-bis {
 	float: left;
-	width:270px;
+	width:100%;
 	clear: none;
 }
 .sidebar-primary .main .column-two {
@@ -438,7 +438,7 @@ article:hover .edit-post {
 .tags strong {
 	display: none;
 }
-article header,.sidebar {margin-top: 41px;
+article header,.sidebar {margin-top: 0px;
 }
 article.box  header {margin-top: 0px;}
 .type-post .meta {

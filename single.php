@@ -38,7 +38,9 @@
 
 				<div class="entry-content">
 					<!-- Full text for post -->
-					<?php the_content(); ?>
+					<div class="content-styler">
+						<?php the_content() ?>
+					</div>
 
 					<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'gpp_theme' ), 'after' => '</div>' ) ); ?>
 				</div>

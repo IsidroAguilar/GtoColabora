@@ -1606,10 +1606,14 @@ display: flex;margin-right: -31px;
 #wa_rs_cycle li > div {
   width:93%
 }
+.content-styler>p{
+  width:70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 18px;
+}
 .post-title {
-  width:80%;
-  padding-left: 10%;
-  padding-right: 10%;
+  width:100%;
   padding-bottom: 30px;
   padding-top: 30px;
   margin: 0px;

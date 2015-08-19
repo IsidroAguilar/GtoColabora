@@ -22,7 +22,9 @@
 					</div>
 				</header>
 
-				<?php the_content() ?>
+				<div class="content-styler">
+					<?php the_content() ?>
+				</div>
 
 			</article>
 

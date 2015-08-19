@@ -13,7 +13,7 @@ audio,canvas,video{display:inline-block;*display:inline;*zoom:1}
 audio:not([controls]){display:none;height:0}
 [hidden]{display:none}
 html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
-html,button,input,select,textarea{font-family:'Montserrat', LatoRegular, Arial, Verdana, sans-serif;}
+html,button,input,select,textarea{font-family:'Roboto', LatoRegular, Arial, Verdana, sans-serif;}
 body{margin:0}
 a:focus{outline:thin dotted}
 a:active,a:hover{outline:0}
@@ -29,7 +29,7 @@ blockquote{margin:1em 40px}
 dfn{font-style:italic}
 mark{background:#ff0;color:#000}
 p,pre{margin:1em 0}
-code,kbd,pre,samp{font-family:'Montserrat',monospace,serif;_font-family:'Montserrat','courier new',monospace;font-size:1em}
+code,kbd,pre,samp{font-family:'Roboto',monospace,serif;_font-family:'Roboto','courier new',monospace;font-size:1em}
 pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}
 q{quotes:none}
 q:before,q:after{content:'';content:none}
@@ -368,7 +368,7 @@ margin-left: -8px;
 width: 251px;}
 .box h2.post-title a{font-size: 18px;
 font-weight: normal;
-font-family: 'Montserrat','LatoRegular',Arial,Verdana,sans-serif;
+font-family: 'Roboto','LatoRegular',Arial,Verdana,sans-serif;
 /*text-transform: lowercase;*/
 margin-bottom: 10px;
 padding: 0px;
@@ -619,7 +619,7 @@ margin-right: -11px;}
 		background: url(../img/quote.png) 0 0 no-repeat;
 		margin:1em 0;
 		padding-left:40px;
-		font-family: 'Montserrat', Georgia, serif;
+		font-family: 'Roboto', Georgia, serif;
 	}
 
 	.format-quote .quote-author {
@@ -842,7 +842,7 @@ div.preview .meta {
     border: 1px solid #CCCCCC;
     border-radius: 50px 50px 50px 50px;
     background: #fff;
-    font-family: 'Montserrat', Georgia;
+    font-family: 'Roboto', Georgia;
     font-style: italic;
     font-size: 90% !important;
 
@@ -1633,17 +1633,8 @@ display: flex;margin-right: -31px;
   width:100%
 }
 .gris1 {
-  width:80%;
-  padding: 50px 10%;
-  margin: 0px;
-  font-size: 18px;
-  text-align: center;
-  padding-bottom: 50px;
-  background-color: rgb(241, 241, 241);
-}
-.gris1-left {
-  width:80%;
-  padding: 50px 10%;
+  width:70%;
+  padding: 50px 15%;
   margin: 0px;
   font-size: 18px;
   text-align: left;
@@ -1651,8 +1642,8 @@ display: flex;margin-right: -31px;
   background-color: rgb(241, 241, 241);
 }
 .gris1-justify {
-  width:80%;
-  padding: 50px 10%;
+  width:70%;
+  padding: 50px 15%;
   margin: 0px;
   font-size: 18px;
   text-align: justify;
@@ -1660,66 +1651,66 @@ display: flex;margin-right: -31px;
   background-color: rgb(241, 241, 241);
 }
 .gris2 {
-  width:80%;
-  padding: 50px 10%;
+  width:70%;
+  padding: 50px 15%;
   margin: 0px;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   padding-bottom: 50px;
   background-color: rgb(218, 218, 218);
   color:black;
 }
 .gris3 {
-  width:80%;
-  padding: 50px 10%;
+  width:70%;
+  padding: 50px 15%;
   margin: 0px;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   padding-bottom: 50px;
   background-color: rgb(165, 165, 165);
   color: white;
 }
 .gris4 {
-  width:80%;
-  padding: 50px 10%;
+  width:70%;
+  padding: 50px 15%;
   margin: 0px;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   padding-bottom: 50px;
   background-color: rgb(89, 89, 89);
   color: white;
 }
 .gris5 {
-  width:80%;
-  padding: 50px 10%;
+  width:70%;
+  padding: 50px 15%;
   margin: 0px;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   padding-bottom: 50px;
   background-color: rgb(12, 12, 12);
   color: white;
 }
 .amarillo-mecate {
-  width:80%;
-  padding: 50px 10%;
+  width:70%;
+  padding: 50px 15%;
   margin: 0px;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   padding-bottom: 50px;
   background-color: #F2D44F;
 }
 .rojo-let {
-  width:80%;
-  padding: 50px 10%;
+  width:70%;
+  padding: 50px 15%;
   margin: 0px;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   padding-bottom: 50px;
   background-color: #e53d24;
 }
 .multy {
-  width:80%;
-  padding: 50px 10%;
+  width:70%;
+  padding: 50px 15%;
   margin: 0px;
   background-color: rgb(241, 241, 241);
   display: flex;
@@ -1727,16 +1718,16 @@ display: flex;margin-right: -31px;
   justify-content: space-around;
 }
 .multy-son-5 {
-  width: 18%;
+  width: 16%;
 }
 .multy-son-4 {
-  width: 23%;
+  width: 22%;
 }
 .multy-son-3 {
-  width: 32%;
+  width: 30%;
 }
 .multy-son-2 {
-  width: 48%;
+  width: 46%;
 }
 .multy-son-1 {
   width: 100%;
@@ -1756,4 +1747,30 @@ display: flex;margin-right: -31px;
   .multy-son-5, .multy-son-4, .multy-son-3, .multy-son-2, .multy-son-1 {
     width: 100%;
   }
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #666666;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
 }

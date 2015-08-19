@@ -12,8 +12,8 @@ Clases:
 - `amarillo-mecate`
 - `rojo-let`
 - `multy`
-- `gris1-left`
 - `gris1-justify`
+- `btn`
 
 Para agregar un post:
 ```html

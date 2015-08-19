@@ -26,7 +26,7 @@
 			</div>
 
 			<header class="post-simple-header">
-				<h2 class="post-title">Comunidades De Innovaci&oacute;n y Emprendimiento</h2>
+				<h2 class="post-title">Comunidades de Innovaci&oacute;n y Emprendimiento</h2>
 			</header>
 			<div id="posts" class="clearfix">
 

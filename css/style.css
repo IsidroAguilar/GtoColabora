@@ -1246,9 +1246,9 @@ textarea {
 
     /* menu icon */
     #menu-icon {
-            color: #000000;
+            color: #FFF;
             width: auto;
-            background: rgb(241, 241, 241);
+            background: rgb(36,31,32);
             padding: 10px 20px;
             cursor: pointer;
             display: block; /* show menu icon */
@@ -1289,7 +1289,7 @@ textarea {
     .sf-menu a:hover,
     .sf-menu ul a:hover {
             background: none;
-            color: #000;
+            color: #AAA;
     }
 
     /* dropdown */
@@ -1757,6 +1757,17 @@ display: flex;margin-right: -31px;
   .multy-son-5, .multy-son-4, .multy-son-3, .multy-son-2, .multy-son-1 {
     width: 100%;
   }
+  .site-description {
+    display: none;
+  }
+  .site-title {
+    margin: -6px 2px;
+  }
+  .top-menu-container {
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+  }
 }
 .btn {
   background: #3498db;
@@ -1796,4 +1807,8 @@ display: flex;margin-right: -31px;
   border-radius: 100%;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
+}
+.top-menu-container .active {
+  display:block;
+  float:none;
 }

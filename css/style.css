@@ -1768,6 +1768,10 @@ display: flex;margin-right: -31px;
     float: right;
     margin-top: 5px;
   }
+  .top-menu-container .active {
+    display:block;
+    float:none;
+  }
 }
 .btn {
   background: #3498db;
@@ -1807,8 +1811,4 @@ display: flex;margin-right: -31px;
   border-radius: 100%;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
-}
-.top-menu-container .active {
-  display:block;
-  float:none;
 }

@@ -157,7 +157,8 @@ font-size: 12px;}
 	margin-left: 30px;
 }
 
-header.wrapper {background:black;
+header.wrapper {
+  background:rgb(36,31,32);
 	position: relative;
 	width: auto;
 }

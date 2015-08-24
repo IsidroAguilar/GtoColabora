@@ -213,10 +213,6 @@ function optionsframework_page() {
             <h2><?php esc_html_e( $themeName ); ?>  <?php esc_html_e( 'Options' ); ?> <small>(v<?php esc_html_e( $themeVersion ); ?>)</small></h2>
           </div>
 
-          <div class="site5author">
-            <h2><a href="http://www.pixel-conception.com"><?php esc_attr_e( 'A Theme by','gpp_theme' ); ?> <strong><?php esc_attr_e( 'pixel-conception.com','gpp_theme' ); ?></strong></a></h2>
-          </div>
-
           <div class="clear"></div>
         </div>
         <div id="main">
@@ -333,7 +329,7 @@ function of_get_option($name, $default = false) {
 
 	// Gets the unique option id
 	$option_name = $optionsframework_settings['id'];
-	
+
 	if ( get_option($option_name) ) {
 		$options = get_option($option_name);
 	}
@@ -370,12 +366,12 @@ WRAPPER FOR OLD FUNCTION get_theme_data()
 *********************************************************************************************/
 
 function of_get_theme_info() {
-    //WP 3.4 
+    //WP 3.4
     if ( function_exists( 'wp_get_theme' ) ) {
         $theme = wp_get_theme();
     // pre WP 3.4
     } else {
         $theme = get_theme_data( get_stylesheet_directory() . '/style.css');;
-    } 
+    }
     return $theme;
 }

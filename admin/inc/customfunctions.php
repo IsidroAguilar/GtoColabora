@@ -75,7 +75,7 @@ function remove_footer_admin () {
     $themeVersion = $theme['Version'];
     $themeDescription = $theme['Description'];
 
-    echo "<b><a href=http://www.pixel-conception.com>$themeName - $themeVersion</a></b> - $themeDescription ";
+    echo "<b>$themeName - $themeVersion</b> - $themeDescription ";
 }
 add_filter('admin_footer_text', 'remove_footer_admin');
 

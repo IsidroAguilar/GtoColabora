@@ -1788,3 +1788,7 @@ display: flex;margin-right: -31px;
   padding-bottom: 0;
   padding-top: 0;
 }
+.content-styler img {
+  width:100%;
+  height: auto;
+}a

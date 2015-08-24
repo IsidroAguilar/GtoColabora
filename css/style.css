@@ -1791,4 +1791,9 @@ display: flex;margin-right: -31px;
 .content-styler img {
   width:100%;
   height: auto;
-}a
+}
+.content-styler .circular {
+  border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+}

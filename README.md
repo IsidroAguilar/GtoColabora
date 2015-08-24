@@ -14,6 +14,7 @@ Clases:
 - `multy`
 - `gris1-justify`
 - `btn`
+- `circular`
 
 Para agregar un post:
 ```html
@@ -51,4 +52,8 @@ Para agregar un post con viarios divs(En proceso):
     </p>
   </div>
 </div>
+```
+Para imagenes circulares:
+```html
+<img src="http://gtocolabora.org/wp-content/uploads/2015/08/semilla-logo-final-250x53.png" alt="mi imagen" class="circular" />
 ```

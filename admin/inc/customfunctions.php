@@ -75,7 +75,7 @@ function remove_footer_admin () {
     $themeVersion = $theme['Version'];
     $themeDescription = $theme['Description'];
 
-    echo "<b><a href=http://www.pixel-conception.com>$themeName - $themeVersion</a></b> - $themeDescription | <a href=www.pixel-conception.com/>Designed by pixel-conception.com</a> ";
+    echo "<b><a href=http://www.pixel-conception.com>$themeName - $themeVersion</a></b> - $themeDescription ";
 }
 add_filter('admin_footer_text', 'remove_footer_admin');
 
@@ -205,11 +205,11 @@ function site5framework_comments($comment, $args, $depth) {
     <article id="comment-<?php comment_ID(); ?>">
       <header class="comment-author vcard">
         <?php echo get_avatar($comment,$size='50',$default=get_template_directory_uri() . '/img/avatar.jpg' ); ?>
-        <?php printf(__('<cite class="fn">%s</cite>'), get_comment_author_link()) ?>  
+        <?php printf(__('<cite class="fn">%s</cite>'), get_comment_author_link()) ?>
         <time datetime="<?php echo comment_time('Y-m-j'); ?>"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php comment_time('F jS, Y'); ?> </a></time>
         <?php edit_comment_link(__('(Edit)'),'  ','') ?>
       </header>
-      
+
       <section class="comment_content">
         <?php comment_text() ?>
       </section>

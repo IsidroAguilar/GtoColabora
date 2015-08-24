@@ -1784,7 +1784,7 @@ display: flex;margin-right: -31px;
   background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
   text-decoration: none;
 }
-.box-header>post-title {
-  margin-top: 0;
-  margin-bottom: 0;
+.box-header>.post-title {
+  padding-bottom: 0;
+  padding-top: 0;
 }

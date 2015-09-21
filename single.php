@@ -23,15 +23,7 @@
 					<?php
 					$postid = $post->ID;
 					?>
-				<div class="multy">
-					<div class="multy-son-3">
-						<article id="post-<?php the_ID(); ?>" <?php post_class(	array('clearfix', 'box' ) ); ?> role="article">
-							<!-- If we want to show a custom page for every comunity this should change -->
-							<?php get_template_part( '/include/post' ); ?>
-						</article>
-					</div>
 
-				</div>
 
 </div>
 <div class="clearfix"></div>

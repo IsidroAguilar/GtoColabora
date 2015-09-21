@@ -3,6 +3,35 @@
 
 		<div class="column-one">
 
+
+
+
+			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+
+			<article id="post-<?php the_ID(); ?>" <?php post_class(	array('clearfix ' ) ); ?> role="article">
+
+				<header class="post-simple-header">
+					<h2 class="post-title"><?php the_title(); ?></h2>
+					<div class="title-image">
+						<?php
+							if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+								the_post_thumbnail();
+							}
+						?>
+					</div>
+				</header>
+
+				<div class="content-styler">
+					<?php the_content() ?>
+				</div>
+
+			</article>
+
+			<?php endwhile; ?>
+
+
+
 			<!-- begin #pagination -->
 			<div class="navigation">
 			<?php if (function_exists("emm_paginate")) {

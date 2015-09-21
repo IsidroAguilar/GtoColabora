@@ -21,7 +21,6 @@
 
 </footer>
 </div>
-<div class="box-under">#<?php  the_ID(); ?></div>
 
 <?php echo extract_gallery(get_the_content()) ?>
 <!-- This post only contains an excerpt of the original post -->

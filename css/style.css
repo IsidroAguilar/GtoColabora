@@ -1807,3 +1807,10 @@ display: flex;margin-right: -31px;
 	-webkit-border-radius: 100%;
 	-moz-border-radius: 100%;
 }
+
+#wa_rs_cycle li img {
+  max-height: 300px;
+}
+#wa_rs_cycle {
+  max-height: 300px;
+}

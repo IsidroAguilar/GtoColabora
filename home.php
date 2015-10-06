@@ -21,7 +21,7 @@
 				<?php } ?>
 			</h1>
 
-			<div class="slider">
+			<div class="slider" style="width: 100%">
 				<?php echo do_shortcode('[responsive-slideshow]'); ?>
 			</div>
 
